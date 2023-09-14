@@ -54,7 +54,7 @@ ip netns exec ns1 ip addr add 10.10.10.1/28 dev veth0
 ```
 
 ```
-ip netns exec ns2 ip addr add 10.10.10.2//28 dev veth1
+ip netns exec ns2 ip addr add 10.10.10.2/28 dev veth1
 ```
 Now, we have to start the interfaces.
 
@@ -70,7 +70,11 @@ We can enter the network namespace using terminal also. To enter ns1,
 ```
 ip netns exec ns1 bash
 ```
-Finally, we can check the network spaces by ping using the ip address. 
+Finally, we can check the network spaces by ping using the ip address. From the terminal of ns1 enter the following command.
+```
+ping 10.10.10.2
+```
+
 
 
 
