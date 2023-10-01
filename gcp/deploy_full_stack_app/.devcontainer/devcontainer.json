@@ -1,0 +1,9 @@
+{
+  "name": "GCP Full Stack deploy Dev-Container",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [],
+  "remoteUser": ""
+}

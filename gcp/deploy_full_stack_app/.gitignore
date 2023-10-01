@@ -1,3 +1,4 @@
 # .devcontainer
 auth.json
-devcon*
+devcon
+devcon.pub
