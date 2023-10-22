@@ -4,9 +4,9 @@ Our primary objective is to deploy a full-stack application to GCP while adherin
 
 We have divided our component into four sections based on its architecture. Each component will have its own subnet and will be isolated from the others unless permission is granted. The backend component will include two instances operating in a subnet.
 - **Reverse Proxy:** The reverse proxy will have a public IP address that users can use to communicate with different components. Using the reverse proxy, a user can make requests to both the backend and the frontend. The reverse proxy will also act as a load balancer, splitting incoming requests for the backend across two servers using round-robin algorithm.  
-- **Backend** The backend server will have two instances and deployed in the same subnet. The backend will only accept incoming requests on a certain port from the reverse proxy and only backend can access the database server.
-- **Frontend** The frontend server will accept incoming requests on a certain port from the reverse proxy. It has no direct access to the backend or database.
-- **Database** This is a crucial component of the architecture and it is secured by restricting the direct access from other components and the public users. The database only accept request from the backend.  
+- **Backend:** The backend server will have two instances and deployed in the same subnet. The backend will only accept incoming requests on a certain port from the reverse proxy and only backend can access the database server.
+- **Frontend:** The frontend server will accept incoming requests on a certain port from the reverse proxy. It has no direct access to the backend or database.
+- **Database:** This is a crucial component of the architecture and it is secured by restricting the direct access from other components and the public users. The database only accept request from the backend.  
 Let's begin...
 
 ### Dev Container

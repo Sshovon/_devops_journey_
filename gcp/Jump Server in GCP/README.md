@@ -46,10 +46,12 @@ You can check the key values using cat command.
 To connect to your VM using VS Code's Remote Explorer, follow these steps:
 
 - Open VS Code and navigate to the Remote Explorer.
-- Select "Connect to Host."
-![open remote explorer](./connect_host.png)
-- You'll find your VM listed with the host you provided. Click on it.
-![select vm by host name](./select_host.png)
+- Select "Connect to Host."  
+
+    ![open remote explorer](./connect_host.png)
+- You'll find your VM listed with the host you provided. Click on it.  
+
+    ![select vm by host name](./select_host.png)
 - VS Code will open a new window with your VM, allowing you to work directly on your VM from within VS Code.
 
 This setup streamlines your development process, enabling you to seamlessly work on your VM using the familiar VS Code environment.
