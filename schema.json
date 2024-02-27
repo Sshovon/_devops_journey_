@@ -4,7 +4,7 @@
   "$metadata": {
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/Sshovon/_devops_journey_/test/schema.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCAgeCredential-v3.json"
+      "jsonSchema": "https://raw.githubusercontent.com/Sshovon/_devops_journey_/test/schema.json"
     }
   },
   "required": [
